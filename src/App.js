@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Container from "@material-ui/core/Container";
+import { createTheme, ThemeProvider } from "@material-ui/core/";
+import { LocationForm } from "./components/LocationForm";
+import { LocationCardList } from "./components/LocationCardList";
+import { makeStyles } from "@material-ui/core";
+
+const useStyles = makeStyles((theme) => {
+  return {
+    container: {
+      backgroundColor: "#f4f4f4",
+    },
+  };
+});
 
 function App() {
+  const classes = useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.container}>
+      <Container>
+        <LocationForm />
+        <LocationCardList />
+      </Container>
     </div>
   );
 }

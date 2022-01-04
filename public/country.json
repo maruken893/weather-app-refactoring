@@ -1,0 +1,42 @@
+{
+  "japan:" {
+    "Tokyo": "Tokyo",
+    "Yokohama": "Yokohama",
+    "Osaka": "Osaka",
+    "Nagoya": "Nagoya",
+    "Sapporo": "Sapporo",
+    "Kobe": "Kobe",
+    "Kyoto": "Kyoto",
+    "Fukuoka": "Fukuoka",
+    "Hiroshima": "Hiroshima",
+    "Sendai": "Sendai"
+  },
+  "United Kingdom": {
+    "London": "London",
+    "Birmingham": "Birmingham",
+    "Glasgow": "Glasgow",
+    "Liverpool": "Liverpool",
+    "Leeds": "Leeds",
+    "Sheffield": "Sheffield",
+    "Edinburgh": "Edinburgh",
+    "Bristol": "Bristol",
+    "Manchester": "Manchester"
+  },
+  "United States of America": {
+    "Washington": "Washington",
+    "New York": "New York",
+    "Chicago": "Chicago"
+  },
+  "France": {
+    "Paris": "Paris"
+  },
+  "Germany": {
+    "Berlin": "Berlin"
+  },
+  "Spain": {
+    "Madrid":  "Madrid"
+  },
+  "Brazil": {
+    "Brasília": "Brasília"
+  }
+}
